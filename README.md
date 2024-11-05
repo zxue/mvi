@@ -268,6 +268,8 @@ For IBMers and IBM business partners, you can download [MVI demo datasets](https
 
 IBM Maximo Visual Inspection Edge (MVIE) is a web-based application that uses trained models and data sets from IBM Maximo Visual Inspection (MVI) to perform AI-based inspections at the edge.
 
+For a quick demo on MVIE, check [Getting started for MVIE users](https://www.ibm.com/docs/en/mas-cd/maximo-vi/continuous-delivery?topic=started-getting-users)
+
 To understand how MVIE works with MVI, check [How Maximo Visual Inspection Edge and Maximo Visual Inspection interact](https://www.ibm.com/docs/en/mas-cd/maximo-vi/continuous-delivery?topic=overview-interaction-maximo-visual-inspection)
 
 For MVIE configuration in MVI,, check "Deploying IBM Maximo Visual Inspection Edge"(https://www.ibm.com/docs/en/mas-cd/continuous-delivery?topic=ons-maximo-visual-inspection-edge)
