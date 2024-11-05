@@ -262,6 +262,8 @@ It looks like `https://masdev.visualinspection.inst1.xxx.com/`. Log in to MVI wi
 
 For more details on how to use Maximo Visual Inspection, check [Configuring MVI](https://www.ibm.com/docs/en/mas-cd/maximo-vi/continuous-delivery?topic=configuring).
 
+For IBMers and IBM business partners, you can download [MVI demo datasets](https://ibm.ent.box.com/s/rlmrub99m35dzpo12wjydit4a94g5o7t).
+
 ## Install Maximo Visual Inspection Edge (MVIE)
 
 IBM Maximo Visual Inspection Edge (MVIE) is a web-based application that uses trained models and data sets from IBM Maximo Visual Inspection (MVI) to perform AI-based inspections at the edge.
