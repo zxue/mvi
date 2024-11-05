@@ -6,7 +6,7 @@ metadata:
 subjects:
 - kind: ServiceAccount
   name: ibm-mas-visualinspection-operator
-  namespace: <MVI_deployment_namespace>
+  namespace: mas-inst1-visualinspection
 roleRef:
   kind: ClusterRole
   name: ibm-mas-visualinspection-clusterrole
