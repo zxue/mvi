@@ -166,8 +166,11 @@ export GRAFANA_INSTANCE_STORAGE_CLASS=ocs-storagecluster-cephfs
 export MONGODB_STORAGE_CLASS=ocs-storagecluster-cephfs
 export DRO_STORAGE_CLASS=ocs-storagecluster-cephfs
 
-#Optionally, specify data report operator (dro) namespace
+# Optionally, specify data report operator (dro) namespace
 export DRO_NAMESPACE=ibm-dro
+
+# Specify latest Nvidia GPU driver version
+export GPU_DRIVER_VERSION=565.57.01
 
 oc login --token=xxxx --server=https://myocpserver
 ansible-playbook ibm.mas_devops.oneclick_add_visualinspection
