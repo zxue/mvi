@@ -170,6 +170,7 @@ export DRO_STORAGE_CLASS=ocs-storagecluster-cephfs
 export DRO_NAMESPACE=ibm-dro
 
 # Specify latest Nvidia GPU driver version
+# More details at https://catalog.ngc.nvidia.com/orgs/nvidia/containers/driver/tags
 export GPU_DRIVER_VERSION=565.57.01
 
 oc login --token=xxxx --server=https://myocpserver
