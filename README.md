@@ -276,7 +276,7 @@ For a quick demo on MVIE, check [Getting started for MVIE users](https://www.ibm
 
 To understand how MVIE works with MVI, check [How Maximo Visual Inspection Edge and Maximo Visual Inspection interact](https://www.ibm.com/docs/en/mas-cd/maximo-vi/continuous-delivery?topic=overview-interaction-maximo-visual-inspection)
 
-For MVIE configuration in MVI,, check "Deploying IBM Maximo Visual Inspection Edge"(https://www.ibm.com/docs/en/mas-cd/continuous-delivery?topic=ons-maximo-visual-inspection-edge)
+For MVIE configuration in MVI,, check [MVIE Planning](https://www.ibm.com/docs/en/mas-cd/maximo-vi/continuous-delivery?topic=edge-planning) and [Deploying IBM Maximo Visual Inspection Edge](https://www.ibm.com/docs/en/mas-cd/continuous-delivery?topic=ons-maximo-visual-inspection-edge)
 
 For MVIE deployment, check [Installing and uninstalling MVIE](https://www.ibm.com/docs/en/mas-cd/maximo-vi/continuous-delivery?topic=SSRU69_cd/base/vision_edge_install.htm)
 
@@ -290,7 +290,7 @@ For more details on MVI Mobile, check [Integrating with IBM Maximo Visual Inspec
 
 ## MVI Capacity Planning
 
-https://www.ibm.com/docs/en/mas-cd/maximo-vi/continuous-delivery?topic=edge-planning
+You can find more details on [Recommended hardware configuration and I/O performance](https://www.ibm.com/docs/en/mas-cd/continuous-delivery?topic=requirements-maximo-visual-inspection), including worker nodes, GPU and storage.
 
 ### Worker Node with GPU:
     • CPU: A minimum of 8 cores is typical, but 16–32 cores can enhance training speeds.
@@ -329,7 +329,7 @@ cat /etc/redhat-release
 
 - Find the correct driver version
 
-Go to https://catalog.ngc.nvidia.com/orgs/nvidia/containers/driver/tags. For example, 550.90.07-rhel8.10 was released on 06/12/2024 3:49 PM. Note that new versions will be released, for example, 565.57.01-rhel8.10 was released on 10/30/2024 9:49 PM.
+Go to [Nvidia drivers](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/driver/tags). For example, 550.90.07-rhel8.10 was released on 06/12/2024 3:49 PM. Note that new versions will be released, for example, 565.57.01-rhel8.10 was released on 10/30/2024 9:49 PM.
 
 - Update GPU cluster policy. 
 
